@@ -113,9 +113,3 @@ span {
         background: #e3e2e2;
     }
 }
-
-@media (max-width:600px){
-    .main{
-        justify-content: space-around;
-    }
-}
