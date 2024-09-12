@@ -119,10 +119,4 @@ span {
         height: 100vh;
         justify-content: space-around;
     }
-    .select button{
-    font-size: 14px;
-    }
-    .change .change1{
-        font-size: 14px;
-    }
 }
