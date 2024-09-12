@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <p>Flex<span>Justify-Content</span></p>
+        </div>
+        <div class="content" id="cont">
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+        </div>
+        <div class="select">
+            <button onclick="change(this,null,'row')" id="row">flex-Direction: row</button>
+            <button onclick="change(this,null,'column')" id="column">flex-Direction: column</button>
+        </div>
+        <div class="change">
+            <button onclick="change(this,'start')" class="change1">justify-content: start</button>
+            <button onclick="change(this,'end')" class="change1">justify-content: end</button>
+            <button onclick="change(this,'center')" class="change1">justify-content: center</button>
+            <button onclick="change(this,'space-evenly')" class="change1">justify-content: space-evenly</button>
+            <button onclick="change(this,'space-around')" class="change1">justify-content: space-around</button>
+            <button onclick="change(this,'space-between')" class="change1">justify-content: space-between</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
