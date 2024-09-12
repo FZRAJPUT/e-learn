@@ -116,7 +116,6 @@ span {
 
 @media (max-width:600px){
     .main{
-        height: 100vh;
         justify-content: space-around;
     }
 }
