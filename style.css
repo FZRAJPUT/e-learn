@@ -20,7 +20,7 @@ body {
 }
 
 .main {
-    height: 660px;
+    height: 96%;
     width: 600px;
     background: #ffffff;
     border: 1px solid #0000001b;
@@ -111,5 +111,21 @@ span {
     font-weight: 500;
     &:hover {
         background: #e3e2e2;
+    }
+}
+
+@media (max-width:600px){
+    .main{
+        height: 60%;
+        justify-content: space-evenly;
+    }
+    .select button{
+    font-size: 14px;
+    }
+    .change .change1{
+        font-size: 14px;
+    }
+    .change .change1{
+        gap: 15px;
     }
 }
